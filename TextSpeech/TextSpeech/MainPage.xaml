@@ -5,10 +5,8 @@
              x:Class="TextSpeech.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Entry x:Name="txt"></Entry>
+        <Button Clicked="Button_Clicked" Text="Fale!"></Button>
     </StackLayout>
 
 </ContentPage>
